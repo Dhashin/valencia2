@@ -1,0 +1,190 @@
+.general-container {
+	width: 95vw;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'PT Serif', serif;
+}
+
+.about-us-heading {
+	background-color: black;
+	color: white;
+	height: 40vh;
+	width: 95vw;
+}
+
+.about-us-text {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 100px;
+	margin-bottom: auto;
+	font-size: 80px;
+	text-align: center;
+}
+
+.creative-div {
+	padding-top: 100px;
+	background-color: white;
+	color: black;
+	height: auto;
+	width: 65vw;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 100px;
+	border-bottom: 2px solid  #00cc99;
+}
+
+.creative-text {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 100px;
+	margin-bottom: auto;
+	font-size: 40px;
+	text-align: center;
+}
+
+.creative-text-p1 {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 100px;
+	margin-bottom: auto;
+	font-size: 40px;
+	text-align: center;
+	width: 50%;
+}
+.about-us-p1{
+	padding-top: 30px;
+	width: 100%;
+	max-width: 95vw;
+	padding-bottom: 30px;
+}
+
+.about-main-image{
+	height: 70vh;
+
+}
+
+.creative-text-para {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 100px;
+	margin-bottom: auto;
+
+	text-align: center;
+}
+
+.creative-div-para {
+	background-color: white;
+	color: grey;
+	height: auto;
+	width: 55vw;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 100px;
+	border-bottom: 2px solid  #00cc99;
+}
+
+.we-are-best-div {
+	padding-top: 100px;
+	background-color: white;
+	color: black;
+	height: 20vh;
+	width: 65vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+.center-div {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.grey {
+	color: grey;
+}
+
+.black {
+	color: black;
+}
+
+.font-40 {
+	font-size: 40px;
+}
+
+.font-18 {
+	font-size: 18px;
+}
+.services-div {
+	display: flex;
+	width: 70%;
+
+	padding-left: 190px;
+}
+
+.compartment-1 {
+	width: 30vw;
+	height: 30vh;
+}
+
+.compartment-2 {
+	width: 30vw;
+	height: 30vh;
+}
+.compartment-3 {
+	width: 30vw;
+	height: 30vh;
+}
+.text-services {
+	width: 70%;
+	text-align: left;
+}
+.text-services-heading {
+	text-align: left;
+	font-size: 35px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.compartment-image {
+	height: 100px;
+	width: 100px;
+}
+.grow-div {
+	padding-top: 60px;
+	margin-top: 80px;
+	width: 95%;
+	background-color: rgb(221, 221, 221);
+	height: 300px;
+	margin-bottom: 60px;
+}
+
+.padding-20-bottom {
+	padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+
+	.creative-text {
+		font-size: 20px;
+	}
+
+	.creative-div-para {
+		width: 90vw;
+	}
+
+	.creative-text-p1 {
+		width: 100%;
+	}
+
+	.about-main-image{
+		height: 55vh;
+
+	}
+	.creative-div {
+	width: 85vw;
+	}
+
+	.creative-text-para {
+
+		padding-top: 20px;
+
+	}
+
+}

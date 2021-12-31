@@ -1,0 +1,63 @@
+.custom-button {
+  min-width: 165px;
+  width: auto;
+  height: 50px;
+  font-family: 'PT Serif', serif;
+  line-height: 50px;
+  padding: 0 35px 0 35px;
+  font-size: 16px;
+  background-color: white;
+  color: grey;
+
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+
+  &.maxWidth {
+    max-width: 100%;
+    width: 100%;
+    min-width: 100%;
+
+  }
+
+  &:hover {
+    color: #00cc99;
+    border-bottom: 1px solid #00cc99;
+  }
+
+  &.center-button {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+  }
+
+  &.left-aligned {
+    margin-right: auto;
+  }
+
+  &.right-aligned {
+    margin-left: auto;
+    min-width: 1px;
+  }
+
+  &.item-page-mobile {
+    width: 70vw;
+  }
+
+  &.equiDist {
+    min-width: 50%;
+  }
+
+  &.inverted {
+    background-color: #00cc99;
+    color: white;
+    border: 1px solid #00cc99;
+
+    &:hover {
+      background-color: darkgrey;
+      color: white;
+      border: none;
+    }
+  }
+}

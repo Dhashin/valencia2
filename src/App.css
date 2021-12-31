@@ -1,7 +1,12 @@
 .App {
   text-align: center;
 }
-
+.link-test{
+  color: #039be5;
+}
+.inner-sub-footer{
+  font-weight: bold;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
